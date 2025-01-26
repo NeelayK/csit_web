@@ -61,6 +61,13 @@ a {
                   
 }
 
+.contact-info{
+  text-align: right;
+  padding-top: 2rem;
+  padding-left: 15rem;
+  
+}
+
 hr {
     margin: 1rem 0;
     border-top: 1px;
@@ -673,6 +680,7 @@ a {
     padding-bottom: 4rem;
 }
 
+
     .header .left .icon {
         display: block;
     }
@@ -763,6 +771,27 @@ a {
         flex-direction: column;
     }
   
+    .contact-info{
+      align-items: center;
+      text-align: center;
+      font-size: 0.7rem;
+
+    }
+    .contact-info .main-text{
+    
+      font-size: 1.2rem;
+
+    }
+
+    .basis{
+      padding: 0%;
+    }
+    .contact-info .main-text{
+      align-items: center;
+      padding: 0 0 0 0;
+      text-align: center;
+    }
+    
     
     .footer .left {
         flex-direction: column;
@@ -903,12 +932,6 @@ a {
 img {vertical-align: middle;}
 
 
-.contact-info{
-  text-align: right;
-  padding-top: 2rem;
-  padding-left: 15rem;
-  
-}
 
 .contact-info p{
   padding-top: 0.5rem;
